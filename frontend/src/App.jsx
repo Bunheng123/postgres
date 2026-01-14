@@ -16,7 +16,7 @@ function App() {
   const [selectedUser, setSelectedUser] = useState(null);
 
   const API_URL =
-    "http://localhost/MyWebsite/database/user/backend/CRUD/index.php";
+    "http://localhost/MyWebsite/database/user/backend/crud/index.php";
 
   // FETCH USERS
   const fetchUsers = () => {
